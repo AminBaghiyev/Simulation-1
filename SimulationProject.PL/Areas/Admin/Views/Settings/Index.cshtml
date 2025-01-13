@@ -1,0 +1,36 @@
+﻿@model SettingsDTO
+
+<form asp-action="Index" class="container" method="POST">
+    <h2 class="my-4">Settings</h2>
+    <div class="mb-3">
+        <input class="form-control" asp-for="Address" />
+        <span class="text-danger" asp-validation-for="Address"></span>
+    </div>
+    <div class="mb-3">
+        <input class="form-control" asp-for="Email" />
+        <span class="text-danger" asp-validation-for="Email"></span>
+    </div>
+    <div class="mb-3">
+        <input class="form-control" asp-for="PhoneNumber" />
+        <span class="text-danger" asp-validation-for="PhoneNumber"></span>
+    </div>
+    <div class="mb-3">
+        <input class="form-control" asp-for="TwitterURL" />
+        <span class="text-danger" asp-validation-for="TwitterURL"></span>
+    </div>
+    <div class="mb-3">
+        <input class="form-control" asp-for="FacebookURL" />
+        <span class="text-danger" asp-validation-for="FacebookURL"></span>
+    </div>
+    <div class="mb-3">
+        <input class="form-control" asp-for="InstagramURL" />
+        <span class="text-danger" asp-validation-for="InstagramURL"></span>
+    </div>
+    <div class="mb-3">
+        <input class="form-control" asp-for="LinkedinURL" />
+        <span class="text-danger" asp-validation-for="LinkedinURL"></span>
+    </div>
+    <p class="text-danger text-center">@Html.ValidationMessage("CustomError")</p>
+
+    <button type="submit" class="btn btn-primary">Save Changes</button>
+</form>

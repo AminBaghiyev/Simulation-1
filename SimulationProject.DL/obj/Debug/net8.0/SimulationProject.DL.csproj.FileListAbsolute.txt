@@ -1,0 +1,17 @@
+C:\Users\CLASSTIME\source\repos\SimulationProject\SimulationProject.DL\bin\Debug\net8.0\SimulationProject.DL.deps.json
+C:\Users\CLASSTIME\source\repos\SimulationProject\SimulationProject.DL\bin\Debug\net8.0\SimulationProject.DL.runtimeconfig.json
+C:\Users\CLASSTIME\source\repos\SimulationProject\SimulationProject.DL\bin\Debug\net8.0\SimulationProject.DL.dll
+C:\Users\CLASSTIME\source\repos\SimulationProject\SimulationProject.DL\bin\Debug\net8.0\SimulationProject.DL.pdb
+C:\Users\CLASSTIME\source\repos\SimulationProject\SimulationProject.DL\bin\Debug\net8.0\SimulationProject.Core.dll
+C:\Users\CLASSTIME\source\repos\SimulationProject\SimulationProject.DL\bin\Debug\net8.0\SimulationProject.Core.pdb
+C:\Users\CLASSTIME\source\repos\SimulationProject\SimulationProject.DL\obj\Debug\net8.0\SimulationProject.DL.csproj.AssemblyReference.cache
+C:\Users\CLASSTIME\source\repos\SimulationProject\SimulationProject.DL\obj\Debug\net8.0\SimulationProject.DL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CLASSTIME\source\repos\SimulationProject\SimulationProject.DL\obj\Debug\net8.0\SimulationProject.DL.AssemblyInfoInputs.cache
+C:\Users\CLASSTIME\source\repos\SimulationProject\SimulationProject.DL\obj\Debug\net8.0\SimulationProject.DL.AssemblyInfo.cs
+C:\Users\CLASSTIME\source\repos\SimulationProject\SimulationProject.DL\obj\Debug\net8.0\SimulationProject.DL.csproj.CoreCompileInputs.cache
+C:\Users\CLASSTIME\source\repos\SimulationProject\SimulationProject.DL\obj\Debug\net8.0\SimulationProject.DL.csproj.CopyComplete
+C:\Users\CLASSTIME\source\repos\SimulationProject\SimulationProject.DL\obj\Debug\net8.0\SimulationProject.DL.dll
+C:\Users\CLASSTIME\source\repos\SimulationProject\SimulationProject.DL\obj\Debug\net8.0\refint\SimulationProject.DL.dll
+C:\Users\CLASSTIME\source\repos\SimulationProject\SimulationProject.DL\obj\Debug\net8.0\SimulationProject.DL.pdb
+C:\Users\CLASSTIME\source\repos\SimulationProject\SimulationProject.DL\obj\Debug\net8.0\SimulationProject.DL.genruntimeconfig.cache
+C:\Users\CLASSTIME\source\repos\SimulationProject\SimulationProject.DL\obj\Debug\net8.0\ref\SimulationProject.DL.dll

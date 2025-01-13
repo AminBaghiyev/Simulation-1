@@ -1,0 +1,17 @@
+C:\Users\CLASSTIME\source\repos\SimulationProject\SimulationProject.BL\bin\Debug\net8.0\SimulationProject.BL.deps.json
+C:\Users\CLASSTIME\source\repos\SimulationProject\SimulationProject.BL\bin\Debug\net8.0\SimulationProject.BL.dll
+C:\Users\CLASSTIME\source\repos\SimulationProject\SimulationProject.BL\bin\Debug\net8.0\SimulationProject.BL.pdb
+C:\Users\CLASSTIME\source\repos\SimulationProject\SimulationProject.BL\obj\Debug\net8.0\SimulationProject.BL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CLASSTIME\source\repos\SimulationProject\SimulationProject.BL\obj\Debug\net8.0\SimulationProject.BL.AssemblyInfoInputs.cache
+C:\Users\CLASSTIME\source\repos\SimulationProject\SimulationProject.BL\obj\Debug\net8.0\SimulationProject.BL.AssemblyInfo.cs
+C:\Users\CLASSTIME\source\repos\SimulationProject\SimulationProject.BL\obj\Debug\net8.0\SimulationProject.BL.csproj.CoreCompileInputs.cache
+C:\Users\CLASSTIME\source\repos\SimulationProject\SimulationProject.BL\obj\Debug\net8.0\SimulationProject.BL.dll
+C:\Users\CLASSTIME\source\repos\SimulationProject\SimulationProject.BL\obj\Debug\net8.0\refint\SimulationProject.BL.dll
+C:\Users\CLASSTIME\source\repos\SimulationProject\SimulationProject.BL\obj\Debug\net8.0\SimulationProject.BL.pdb
+C:\Users\CLASSTIME\source\repos\SimulationProject\SimulationProject.BL\obj\Debug\net8.0\ref\SimulationProject.BL.dll
+C:\Users\CLASSTIME\source\repos\SimulationProject\SimulationProject.BL\bin\Debug\net8.0\SimulationProject.Core.dll
+C:\Users\CLASSTIME\source\repos\SimulationProject\SimulationProject.BL\bin\Debug\net8.0\SimulationProject.DL.dll
+C:\Users\CLASSTIME\source\repos\SimulationProject\SimulationProject.BL\bin\Debug\net8.0\SimulationProject.DL.pdb
+C:\Users\CLASSTIME\source\repos\SimulationProject\SimulationProject.BL\bin\Debug\net8.0\SimulationProject.Core.pdb
+C:\Users\CLASSTIME\source\repos\SimulationProject\SimulationProject.BL\obj\Debug\net8.0\SimulationProject.BL.csproj.AssemblyReference.cache
+C:\Users\CLASSTIME\source\repos\SimulationProject\SimulationProject.BL\obj\Debug\net8.0\SimulationProject.BL.csproj.CopyComplete
