@@ -12,7 +12,7 @@ public static class ConfigurationServices
 {
     public static void AddDLServices(this IServiceCollection services)
     {
-        services.AddDbContext<AppDbContext>(options => options.UseSqlServer(Connection.GetConnectionString()));
+        services.AddDbContext<AppDbContext>(options => options.UseSqlServer(Connection.GetConnectionString("local")));
 
         services.AddScoped<IReadRepository<Card>, ReadRepository<Card>>();
         services.AddScoped<IWriteRepository<Card>, WriteRepository<Card>>();

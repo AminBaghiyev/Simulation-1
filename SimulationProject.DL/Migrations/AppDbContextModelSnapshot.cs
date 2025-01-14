@@ -255,7 +255,7 @@ namespace SimulationProject.DL.Migrations
                             EmailConfirmed = false,
                             LockoutEnabled = false,
                             NormalizedUserName = "ADMIN",
-                            PasswordHash = "AQAAAAIAAYagAAAAEKV6N3CsMB3oTz4LlRcyw0u68o7KC0jtvW/eumq6OTo4VWZ3qbE1d1zbRmdkLnt25Q==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEJIrYze5c1j4tzGJCRRzDi5SbYQstWFVuXDMQewxJ7lnERQTgxyWifYp8Tpchfiq1w==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "22959176-adad-496c-a334-5f996c92b09d",
                             TwoFactorEnabled = false,
@@ -282,7 +282,6 @@ namespace SimulationProject.DL.Migrations
                         .HasColumnType("datetime2");
 
                     b.Property<string>("DeletedBy")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Description")
@@ -304,7 +303,6 @@ namespace SimulationProject.DL.Migrations
                         .HasColumnType("datetime2");
 
                     b.Property<string>("UpdatedBy")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");

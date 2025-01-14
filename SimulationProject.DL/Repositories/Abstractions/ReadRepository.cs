@@ -17,7 +17,7 @@ public class ReadRepository<T> : IReadRepository<T> where T : BaseEntity, new()
 
     public DbSet<T> Table => _context.Set<T>();
 
-    public async Task<ICollection<T>> GetAllAsync(Expression<Func<T, bool>>? expression = null, int page = 0, int count = 5, params string[] Includes)
+    public async Task<ICollection<T>> GetAllAsync(Expression<Func<T, bool>>? expression = null, int page = 0, int count = 5, bool orderAsc = true, params string[] Includes)
     {
         IQueryable<T> query = Table.AsQueryable();
 
@@ -31,12 +31,16 @@ public class ReadRepository<T> : IReadRepository<T> where T : BaseEntity, new()
 
         if (expression is not null) query = query.Where(expression);
 
-        return await query.Skip(count * page).Take(page).ToListAsync();
+        query = orderAsc ? query.OrderBy(e => e.Id) : query.OrderByDescending(e => e.Id);
+
+        return await query.Skip(page * count).Take(count).ToListAsync();
     }
 
-    public async Task<T?> GetByIdAsync(int Id, params string[] Includes)
+    public async Task<T?> GetByIdAsync(int Id, bool Tracking = false, params string[] Includes)
     {
         IQueryable<T> query = Table.AsQueryable();
+
+        if (!Tracking) query = query.AsNoTracking();
         
         if (Includes.Length > 0)
         {
@@ -49,9 +53,11 @@ public class ReadRepository<T> : IReadRepository<T> where T : BaseEntity, new()
         return await query.SingleOrDefaultAsync(e => e.Id == Id);
     }
 
-    public async Task<T?> GetOneWithExpressionAsync(Expression<Func<T, bool>> expression, params string[] Includes)
+    public async Task<T?> GetOneWithExpressionAsync(Expression<Func<T, bool>> expression, bool Tracking = false, params string[] Includes)
     {
         IQueryable<T> query = Table.AsQueryable();
+
+        if (!Tracking) query = query.AsNoTracking();
 
         if (Includes.Length > 0)
         {

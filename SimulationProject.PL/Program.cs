@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
 using SimulationProject.BL;
 using SimulationProject.Core.Models;
 using SimulationProject.DL;
@@ -22,10 +23,23 @@ builder.Services.AddIdentity<AppUser, IdentityRole>(
     .AddDefaultTokenProviders()
     .AddEntityFrameworkStores<AppDbContext>();
 
+// for unauthorized login
+builder.Services.ConfigureApplicationCookie(options =>
+{
+    options.LoginPath = "/Admin/Account/Login";
+    options.AccessDeniedPath = "/";
+});
+
 builder.Services.AddDLServices();
 builder.Services.AddBLServices();
-
 var app = builder.Build();
+
+using (var scope = app.Services.CreateScope())
+{
+    var db = scope.ServiceProvider.GetRequiredService<AppDbContext>();
+    await db.Database.MigrateAsync();
+}
+
 app.UseStaticFiles();
 app.UseAuthentication();
 app.UseAuthorization();

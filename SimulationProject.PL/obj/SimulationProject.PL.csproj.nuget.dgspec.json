@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\CLASSTIME\\source\\repos\\SimulationProject\\SimulationProject.PL\\SimulationProject.PL.csproj": {}
+    "C:\\Users\\USER\\Desktop\\AB205\\Simulation-1\\SimulationProject.PL\\SimulationProject.PL.csproj": {}
   },
   "projects": {
-    "C:\\Users\\CLASSTIME\\source\\repos\\SimulationProject\\SimulationProject.BL\\SimulationProject.BL.csproj": {
+    "C:\\Users\\USER\\Desktop\\AB205\\Simulation-1\\SimulationProject.BL\\SimulationProject.BL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\CLASSTIME\\source\\repos\\SimulationProject\\SimulationProject.BL\\SimulationProject.BL.csproj",
+        "projectUniqueName": "C:\\Users\\USER\\Desktop\\AB205\\Simulation-1\\SimulationProject.BL\\SimulationProject.BL.csproj",
         "projectName": "SimulationProject.BL",
-        "projectPath": "C:\\Users\\CLASSTIME\\source\\repos\\SimulationProject\\SimulationProject.BL\\SimulationProject.BL.csproj",
-        "packagesPath": "C:\\Users\\CLASSTIME\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\CLASSTIME\\source\\repos\\SimulationProject\\SimulationProject.BL\\obj\\",
+        "projectPath": "C:\\Users\\USER\\Desktop\\AB205\\Simulation-1\\SimulationProject.BL\\SimulationProject.BL.csproj",
+        "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\USER\\Desktop\\AB205\\Simulation-1\\SimulationProject.BL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\CLASSTIME\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -32,8 +32,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\CLASSTIME\\source\\repos\\SimulationProject\\SimulationProject.DL\\SimulationProject.DL.csproj": {
-                "projectPath": "C:\\Users\\CLASSTIME\\source\\repos\\SimulationProject\\SimulationProject.DL\\SimulationProject.DL.csproj"
+              "C:\\Users\\USER\\Desktop\\AB205\\Simulation-1\\SimulationProject.DL\\SimulationProject.DL.csproj": {
+                "projectPath": "C:\\Users\\USER\\Desktop\\AB205\\Simulation-1\\SimulationProject.DL\\SimulationProject.DL.csproj"
               }
             }
           }
@@ -42,7 +42,13 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -81,24 +87,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\CLASSTIME\\source\\repos\\SimulationProject\\SimulationProject.Core\\SimulationProject.Core.csproj": {
+    "C:\\Users\\USER\\Desktop\\AB205\\Simulation-1\\SimulationProject.Core\\SimulationProject.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\CLASSTIME\\source\\repos\\SimulationProject\\SimulationProject.Core\\SimulationProject.Core.csproj",
+        "projectUniqueName": "C:\\Users\\USER\\Desktop\\AB205\\Simulation-1\\SimulationProject.Core\\SimulationProject.Core.csproj",
         "projectName": "SimulationProject.Core",
-        "projectPath": "C:\\Users\\CLASSTIME\\source\\repos\\SimulationProject\\SimulationProject.Core\\SimulationProject.Core.csproj",
-        "packagesPath": "C:\\Users\\CLASSTIME\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\CLASSTIME\\source\\repos\\SimulationProject\\SimulationProject.Core\\obj\\",
+        "projectPath": "C:\\Users\\USER\\Desktop\\AB205\\Simulation-1\\SimulationProject.Core\\SimulationProject.Core.csproj",
+        "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\USER\\Desktop\\AB205\\Simulation-1\\SimulationProject.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\CLASSTIME\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -119,7 +125,13 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -146,24 +158,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\CLASSTIME\\source\\repos\\SimulationProject\\SimulationProject.DL\\SimulationProject.DL.csproj": {
+    "C:\\Users\\USER\\Desktop\\AB205\\Simulation-1\\SimulationProject.DL\\SimulationProject.DL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\CLASSTIME\\source\\repos\\SimulationProject\\SimulationProject.DL\\SimulationProject.DL.csproj",
+        "projectUniqueName": "C:\\Users\\USER\\Desktop\\AB205\\Simulation-1\\SimulationProject.DL\\SimulationProject.DL.csproj",
         "projectName": "SimulationProject.DL",
-        "projectPath": "C:\\Users\\CLASSTIME\\source\\repos\\SimulationProject\\SimulationProject.DL\\SimulationProject.DL.csproj",
-        "packagesPath": "C:\\Users\\CLASSTIME\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\CLASSTIME\\source\\repos\\SimulationProject\\SimulationProject.DL\\obj\\",
+        "projectPath": "C:\\Users\\USER\\Desktop\\AB205\\Simulation-1\\SimulationProject.DL\\SimulationProject.DL.csproj",
+        "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\USER\\Desktop\\AB205\\Simulation-1\\SimulationProject.DL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\CLASSTIME\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -178,8 +190,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\CLASSTIME\\source\\repos\\SimulationProject\\SimulationProject.Core\\SimulationProject.Core.csproj": {
-                "projectPath": "C:\\Users\\CLASSTIME\\source\\repos\\SimulationProject\\SimulationProject.Core\\SimulationProject.Core.csproj"
+              "C:\\Users\\USER\\Desktop\\AB205\\Simulation-1\\SimulationProject.Core\\SimulationProject.Core.csproj": {
+                "projectPath": "C:\\Users\\USER\\Desktop\\AB205\\Simulation-1\\SimulationProject.Core\\SimulationProject.Core.csproj"
               }
             }
           }
@@ -188,7 +200,13 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -233,24 +251,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\CLASSTIME\\source\\repos\\SimulationProject\\SimulationProject.PL\\SimulationProject.PL.csproj": {
+    "C:\\Users\\USER\\Desktop\\AB205\\Simulation-1\\SimulationProject.PL\\SimulationProject.PL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\CLASSTIME\\source\\repos\\SimulationProject\\SimulationProject.PL\\SimulationProject.PL.csproj",
+        "projectUniqueName": "C:\\Users\\USER\\Desktop\\AB205\\Simulation-1\\SimulationProject.PL\\SimulationProject.PL.csproj",
         "projectName": "SimulationProject.PL",
-        "projectPath": "C:\\Users\\CLASSTIME\\source\\repos\\SimulationProject\\SimulationProject.PL\\SimulationProject.PL.csproj",
-        "packagesPath": "C:\\Users\\CLASSTIME\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\CLASSTIME\\source\\repos\\SimulationProject\\SimulationProject.PL\\obj\\",
+        "projectPath": "C:\\Users\\USER\\Desktop\\AB205\\Simulation-1\\SimulationProject.PL\\SimulationProject.PL.csproj",
+        "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\USER\\Desktop\\AB205\\Simulation-1\\SimulationProject.PL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\CLASSTIME\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -265,8 +283,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\CLASSTIME\\source\\repos\\SimulationProject\\SimulationProject.BL\\SimulationProject.BL.csproj": {
-                "projectPath": "C:\\Users\\CLASSTIME\\source\\repos\\SimulationProject\\SimulationProject.BL\\SimulationProject.BL.csproj"
+              "C:\\Users\\USER\\Desktop\\AB205\\Simulation-1\\SimulationProject.BL\\SimulationProject.BL.csproj": {
+                "projectPath": "C:\\Users\\USER\\Desktop\\AB205\\Simulation-1\\SimulationProject.BL\\SimulationProject.BL.csproj"
               }
             }
           }
@@ -275,7 +293,13 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -319,7 +343,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

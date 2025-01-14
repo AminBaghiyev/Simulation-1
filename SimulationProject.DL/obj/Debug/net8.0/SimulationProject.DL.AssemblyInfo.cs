@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SimulationProject.DL")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7ab954c3e0c3d332ebfe72ccebc3f3ef41faf7e7")]
 [assembly: System.Reflection.AssemblyProductAttribute("SimulationProject.DL")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SimulationProject.DL")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

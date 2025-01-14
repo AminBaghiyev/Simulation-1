@@ -1,4 +1,9 @@
-﻿<!DOCTYPE html>
+﻿@inject ISettingService SettingService
+@{
+    SettingsDTO settings = await SettingService.GetSettingsAsync();
+}
+
+<!DOCTYPE html>
 <html lang="en">
 
 <head>

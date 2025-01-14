@@ -1,0 +1,34 @@
+﻿@model Card
+
+<div class="container">
+    <div class="card shadow mb-4">
+        <div class="card-header py-3">
+            <h6 class="m-0 font-weight-bold text-primary">Card Details</h6>
+        </div>
+        <div class="card-body">
+            <p>Id: @Model.Id</p>
+            <p>Title: @Model.Title</p>
+            <p>Description: @Model.Description</p>
+            <p>Image: <img style="height: 150px;" src="~/uploads/cards/@Model.ImagePath" /></p>
+            <p>Created by: @Model.CreatedBy</p>
+            <p>Create time: @Model.CreatedAt</p>
+            @if (Model.UpdatedBy is not null)
+            {
+                <p>Updated by: @Model.UpdatedBy</p>
+            }
+            @if (Model.UpdatedAt is not null)
+            {
+                <p>Update time: @Model.UpdatedAt</p>
+            }
+            @if (Model.DeletedBy is not null)
+            {
+                <p>Deleted by: @Model.DeletedBy</p>
+            }
+            @if (Model.DeletedAt is not null)
+            {
+                <p>Delete time: @Model.DeletedAt</p>
+            }
+            <p>Deleted: @Model.IsDeleted</p>
+        </div>
+    </div>
+</div>

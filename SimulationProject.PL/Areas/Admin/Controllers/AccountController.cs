@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using SimulationProject.BL.DTOs;
 using SimulationProject.BL.Services.Abstractions;
+using SimulationProject.Core.Enums;
 
 namespace SimulationProject.PL.Areas.Admin.Controllers;
 
@@ -16,11 +17,17 @@ public class AccountController : Controller
 
     public IActionResult Login()
     {
+        if (User.Identity is not null && User.Identity.IsAuthenticated)
+        {
+            return Redirect(User.IsInRole(Roles.Admin.ToString()) ? "/admin" : "/");
+        }
+
         return View();
     }
 
     [HttpPost]
-    public async Task<IActionResult> Login(AppUserLoginDTO dto)
+    [ValidateAntiForgeryToken]
+    public async Task<IActionResult> Login(AppUserLoginDTO dto, string? returnUrl = null)
     {
         if (!ModelState.IsValid)
         {
@@ -36,8 +43,8 @@ public class AccountController : Controller
             ModelState.AddModelError("CustomError", "Something went wrong!");
             return View(dto);
         }
-
-        return RedirectToAction("Index", "Dashboard");
+        
+        return Redirect(returnUrl ?? (User.IsInRole(Roles.Admin.ToString()) ? "/admin" : "/"));
     }
 
     public async Task<IActionResult> Logout()

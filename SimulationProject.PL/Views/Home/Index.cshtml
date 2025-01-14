@@ -1,4 +1,6 @@
-﻿<!-- ======= Hero Section ======= -->
+﻿@model HomeVM
+
+<!-- ======= Hero Section ======= -->
 <section id="hero">
     <div class="hero-container">
         <h1>Welcome to Siimple</h1>
@@ -54,52 +56,36 @@
             </div>
 
         </div>
-    </section><!-- End About Section -->
-    <!-- ======= Why Us Section ======= -->
-    <section id="why-us" class="why-us section-bg">
-        <div class="container">
+    </section>
+    <!-- End About Section -->
 
-            <div class="row">
-                <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
-                    <div class="card">
-                        <img src="~/assets/img/why-us-1.jpg" class="card-img-top" alt="...">
-                        <div class="card-icon">
-                            <i class="bx bx-book-reader"></i>
+    @if (Model.Cards is not null)
+    {
+        <!-- ======= Why Us Section ======= -->
+        <section id="why-us" class="why-us section-bg">
+            <div class="container">
+                <div class="row">
+                    @foreach (CardViewItem card in Model.Cards)
+                    {
+                        <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+                            <div class="card">
+                                <img src="~/uploads/cards/@card.ImagePath" class="card-img-top" alt="@card.Title">
+                                <div class="card-icon">
+                                    <i class="bx bx-book-reader"></i>
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title"><a href="">@card.Title</a></h5>
+                                    <p class="card-text">@card.Description</p>
+                                </div>
+                            </div>
                         </div>
-                        <div class="card-body">
-                            <h5 class="card-title"><a href="">Our Mission</a></h5>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
-                    <div class="card">
-                        <img src="~/assets/img/why-us-2.jpg" class="card-img-top" alt="...">
-                        <div class="card-icon">
-                            <i class="bx bx-calendar-edit"></i>
-                        </div>
-                        <div class="card-body">
-                            <h5 class="card-title"><a href="">Our Plan</a></h5>
-                            <p class="card-text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
-                    <div class="card">
-                        <img src="~/assets/img/why-us-3.jpg" class="card-img-top" alt="...">
-                        <div class="card-icon">
-                            <i class="bx bx-landscape"></i>
-                        </div>
-                        <div class="card-body">
-                            <h5 class="card-title"><a href="">Our Vision</a></h5>
-                            <p class="card-text">Nemo enim ipsam voluptatem quia voluptas sit aut odit aut fugit, sed quia magni dolores eos qui ratione voluptatem sequi nesciunt Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet. </p>
-                        </div>
-                    </div>
+                    }
                 </div>
             </div>
+        </section>
+        <!-- End Why Us Section -->
+    }
 
-        </div>
-    </section><!-- End Why Us Section -->
     <!-- ======= Frequenty Asked Questions Section ======= -->
     <section class="faq">
         <div class="container">
@@ -180,27 +166,50 @@
 
                 <div class="col-lg-3 col-md-5 mb-5 mb-md-0">
                     <div class="info">
-                        <div class="address">
-                            <i class="bx bx-map"></i>
-                            <p>A108 Adam Street<br>New York, NY 535022</p>
-                        </div>
+                        @if (Model.Settings.Address is not null && Model.Settings.Address != "")
+                        {
+                            <div class="address">
+                                <i class="bx bx-map"></i>
+                                <p>@Model.Settings.Address</p>
+                            </div>
+                        }
+                        
+                        @if (Model.Settings.Email is not null && Model.Settings.Email != "")
+                        {
+                            <div class="email">
+                                <i class="bx bx-envelope"></i>
+                                <p>@Model.Settings.Email</p>
+                            </div>
+                        }
+                        
+                        @if (Model.Settings.PhoneNumber is not null && Model.Settings.PhoneNumber != "")
+                        {
+                            <div class="phone">
+                                <i class="bx bx-phone-call"></i>
+                                <p>@Model.Settings.PhoneNumber</p>
+                            </div>
+                        }
 
-                        <div class="email">
-                            <i class="bx bx-envelope"></i>
-                            <p>info@example.com</p>
-                        </div>
-
-                        <div class="phone">
-                            <i class="bx bx-phone-call"></i>
-                            <p>+1 5589 55488 55s</p>
-                        </div>
+                        
                     </div>
 
                     <div class="social-links">
-                        <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-                        <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-                        <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-                        <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+                        @if (Model.Settings.TwitterURL is not null && Model.Settings.TwitterURL != "")
+                        {
+                            <a href="@Model.Settings.TwitterURL" class="twitter"><i class="bx bxl-twitter"></i></a>
+                        }
+                        @if (Model.Settings.FacebookURL is not null && Model.Settings.FacebookURL != "")
+                        {
+                            <a href="@Model.Settings.FacebookURL" class="facebook"><i class="bx bxl-facebook"></i></a>
+                        }
+                        @if (Model.Settings.InstagramURL is not null && Model.Settings.InstagramURL != "")
+                        {
+                            <a href="@Model.Settings.InstagramURL" class="instagram"><i class="bx bxl-instagram"></i></a>
+                        }
+                        @if (Model.Settings.LinkedinURL is not null && Model.Settings.LinkedinURL != "")
+                        {
+                            <a href="@Model.Settings.LinkedinURL" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+                        }
                     </div>
 
                 </div>

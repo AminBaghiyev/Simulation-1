@@ -22,6 +22,7 @@ public class SettingsController : Controller
     }
 
     [HttpPost]
+    [ValidateAntiForgeryToken]
     public async Task<IActionResult> Index(SettingsDTO dto)
     {
         if (!ModelState.IsValid)

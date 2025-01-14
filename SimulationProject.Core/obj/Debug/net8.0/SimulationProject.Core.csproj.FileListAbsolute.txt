@@ -10,3 +10,16 @@ C:\Users\CLASSTIME\source\repos\SimulationProject\SimulationProject.Core\obj\Deb
 C:\Users\CLASSTIME\source\repos\SimulationProject\SimulationProject.Core\obj\Debug\net8.0\refint\SimulationProject.Core.dll
 C:\Users\CLASSTIME\source\repos\SimulationProject\SimulationProject.Core\obj\Debug\net8.0\SimulationProject.Core.pdb
 C:\Users\CLASSTIME\source\repos\SimulationProject\SimulationProject.Core\obj\Debug\net8.0\ref\SimulationProject.Core.dll
+C:\Users\USER\Desktop\AB205\Simulation-1\SimulationProject.Core\bin\Debug\net8.0\SimulationProject.Core.deps.json
+C:\Users\USER\Desktop\AB205\Simulation-1\SimulationProject.Core\bin\Debug\net8.0\SimulationProject.Core.dll
+C:\Users\USER\Desktop\AB205\Simulation-1\SimulationProject.Core\bin\Debug\net8.0\SimulationProject.Core.pdb
+C:\Users\USER\Desktop\AB205\Simulation-1\SimulationProject.Core\obj\Debug\net8.0\SimulationProject.Core.csproj.AssemblyReference.cache
+C:\Users\USER\Desktop\AB205\Simulation-1\SimulationProject.Core\obj\Debug\net8.0\SimulationProject.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USER\Desktop\AB205\Simulation-1\SimulationProject.Core\obj\Debug\net8.0\SimulationProject.Core.AssemblyInfoInputs.cache
+C:\Users\USER\Desktop\AB205\Simulation-1\SimulationProject.Core\obj\Debug\net8.0\SimulationProject.Core.AssemblyInfo.cs
+C:\Users\USER\Desktop\AB205\Simulation-1\SimulationProject.Core\obj\Debug\net8.0\SimulationProject.Core.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\AB205\Simulation-1\SimulationProject.Core\obj\Debug\net8.0\SimulationProject.Core.sourcelink.json
+C:\Users\USER\Desktop\AB205\Simulation-1\SimulationProject.Core\obj\Debug\net8.0\SimulationProject.Core.dll
+C:\Users\USER\Desktop\AB205\Simulation-1\SimulationProject.Core\obj\Debug\net8.0\refint\SimulationProject.Core.dll
+C:\Users\USER\Desktop\AB205\Simulation-1\SimulationProject.Core\obj\Debug\net8.0\SimulationProject.Core.pdb
+C:\Users\USER\Desktop\AB205\Simulation-1\SimulationProject.Core\obj\Debug\net8.0\ref\SimulationProject.Core.dll

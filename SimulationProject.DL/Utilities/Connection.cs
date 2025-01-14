@@ -4,7 +4,7 @@ namespace SimulationProject.DL.Utilities;
 
 public class Connection
 {
-    public static string GetConnectionString()
+    public static string GetConnectionString(string key)
     {
         ConfigurationManager manager = new();
 
@@ -12,6 +12,6 @@ public class Connection
         manager.AddJsonFile("appsettings.json");
 
         return
-            manager.GetConnectionString("MsSql") ?? throw new Exception("Connection string not found!");
+            manager.GetConnectionString(key) ?? throw new Exception("Connection string not found!");
     }
 }
