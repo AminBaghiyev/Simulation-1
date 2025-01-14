@@ -6,6 +6,10 @@ public class Connection
 {
     public static string GetConnectionString(string key)
     {
+        string? connectionString = Environment.GetEnvironmentVariable(key);
+
+        if (connectionString is not null) return connectionString;
+
         ConfigurationManager manager = new();
 
         manager.SetBasePath(Path.Combine(Directory.GetCurrentDirectory(), "..", "SimulationProject.PL"));

@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\USER\\Desktop\\AB205\\Simulation-1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{29FC48B8-B057-4FE0-AC1B-7EAE1C9B58D0}|SimulationProject.PL\\SimulationProject.PL.csproj|c:\\users\\user\\desktop\\ab205\\simulation-1\\simulationproject.pl\\areas\\admin\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{29FC48B8-B057-4FE0-AC1B-7EAE1C9B58D0}|SimulationProject.PL\\SimulationProject.PL.csproj|solutionrelative:simulationproject.pl\\areas\\admin\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{46C5B5BF-6D1F-4B4D-8774-2081252F0A7E}|SimulationProject.DL\\SimulationProject.DL.csproj|c:\\users\\user\\desktop\\ab205\\simulation-1\\simulationproject.dl\\configurationservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46C5B5BF-6D1F-4B4D-8774-2081252F0A7E}|SimulationProject.DL\\SimulationProject.DL.csproj|solutionrelative:simulationproject.dl\\configurationservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29FC48B8-B057-4FE0-AC1B-7EAE1C9B58D0}|SimulationProject.PL\\SimulationProject.PL.csproj|c:\\users\\user\\desktop\\ab205\\simulation-1\\simulationproject.pl\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{29FC48B8-B057-4FE0-AC1B-7EAE1C9B58D0}|SimulationProject.PL\\SimulationProject.PL.csproj|solutionrelative:simulationproject.pl\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -39,14 +43,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "AccountController.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\AB205\\Simulation-1\\SimulationProject.PL\\Areas\\Admin\\Controllers\\AccountController.cs",
-              "RelativeDocumentMoniker": "SimulationProject.PL\\Areas\\Admin\\Controllers\\AccountController.cs",
-              "ToolTip": "C:\\Users\\USER\\Desktop\\AB205\\Simulation-1\\SimulationProject.PL\\Areas\\Admin\\Controllers\\AccountController.cs",
-              "RelativeToolTip": "SimulationProject.PL\\Areas\\Admin\\Controllers\\AccountController.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBQAAAAJAAAAAAAAAA==",
+              "Title": "ConfigurationServices.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\AB205\\Simulation-1\\SimulationProject.DL\\ConfigurationServices.cs",
+              "RelativeDocumentMoniker": "SimulationProject.DL\\ConfigurationServices.cs",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\AB205\\Simulation-1\\SimulationProject.DL\\ConfigurationServices.cs",
+              "RelativeToolTip": "SimulationProject.DL\\ConfigurationServices.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-14T01:33:54.852Z",
+              "WhenOpened": "2025-01-14T21:56:14.597Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\AB205\\Simulation-1\\SimulationProject.PL\\appsettings.json",
+              "RelativeDocumentMoniker": "SimulationProject.PL\\appsettings.json",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\AB205\\Simulation-1\\SimulationProject.PL\\appsettings.json",
+              "RelativeToolTip": "SimulationProject.PL\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAACgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-14T21:41:55.938Z",
               "EditorCaption": ""
             }
           ]

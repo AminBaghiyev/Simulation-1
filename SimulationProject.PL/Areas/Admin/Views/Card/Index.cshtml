@@ -55,9 +55,12 @@
                             {
                                 <li class="paginate_button page-item previous"><a asp-route-page="@(currentPage - 1)" tabindex="0" class="page-link">Previous</a></li>
                             }
-                            @for (int i = 0; i < pageCount; i++)
+                            @if (pageCount > 1)
                             {
-                                <li class="paginate_button page-item @(currentPage == i ? "active" : "")"><a asp-route-page="@i" tabindex="0" class="page-link">@(i + 1)</a></li>
+                                for (int i = 0; i < pageCount; i++)
+                                {
+                                    <li class="paginate_button page-item @(currentPage == i ? "active" : "")"><a asp-route-page="@i" tabindex="0" class="page-link">@(i + 1)</a></li>
+                                }
                             }
                             @if (pageCount > currentPage + 1)
                             {
